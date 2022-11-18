@@ -1,121 +1,141 @@
 
+
+`sudo apt clean `
+`sudo apt install openboard`
+`sudo apt install preload`
+
+#manual - help
+
+`sudo apt `
+`python3 --version`
+`python3-pip --version`
+`pip --version`
+`snap disable firefox`
+`snap remove --purge firefox`
+
+`man`
+`sudo man update`
+`help --help`
+`help man`
+`man help`
+`info man`
+`man -k man`
+`man help`
+`ls`
+`ls -l`
+`ls -la`
+`uname --help`
+`apropos`
+`apropos usb`
+`apropos virtual`
+`sudo  search`
+
+`sudo dpkg --configure -a`
+`util list`
+
+`version`
+`os version`
+`lsb_release -a `
+`sudo apt-get install snapd`
+`sudo apt install htop`
+`sudo apt install tzdata`
+
+`sudo nano /etc/hostname`
+`sudo nano /etc/hosts`
+`whoami`
+
+`man git`
+`git -V`
+`git --version`
+`git --help`
+
+`ls --color=auto`
+`alias ls="ls --color=auto"`
+`ls`
+`unalias ls="ls --color=auto"`
+`unalias ls`
+`pwd`
+
+`sudo reboot`
+`sudo shutdown`
+
+#dpkg`
+
+`sudo dpkg -i discord-0.0.21.deb`
+`sudo dpkg -install discord-0.0.21.deb`
+`sudo dpkg install discord-0.0.21.deb`
+
 #snap
 
-sudo search snap-store
-sudo search snap
-snap search store
-snap update
-snap upgrade
-snap help
-sudo snap upgrade
-sudo snap update
-sudo snap upgrade
-sudo apt install snapd
-sudo snap install snap-store
-snap help refresh
-snap refresh
-snap search visual studio code
-snap search code
-snap search vscode
-snap install vscode
-snap install --beta vscode
-snap install --edge vscode
-snap info vscode
-snap info code
-snap info vscode
-sudo snap install code
-sudo snap install code --classic
-snap-store --quit
-sudo snap refresh
-sudo snap refreshvirtualbox
-sudo snap refresh virtualbox
-sudo snap refresh
-sudo snap-store refresh
-sudo snap refresh
-sudo snap remove snap-store
-sudo snap refresh
+`sudo search snap-store`
+`sudo search snap`
+`snap search store`
+`sudo apt install snapd`
+`sudo snap install snap-store`
+`snap info vscode`
+`sudo snap install code`
+`sudo snap install code --classic`
+`snap-store --quit`
+`sudo snap refresh`
+`sudo snap remove snap-store`
 
-sudo snapd update
-sudo snap update
-sudo snap upgrade
-snap help --all
-snap list upgrade
-
+`sudo snap update`
+`sudo snap upgrade`
+`snap help`
+`snap help --all`
+`snap list upgrade`
 
 #apt install
 
-sudo apt install cmatrix
-sudo apt install ffmpeg
-sudo apt install ubuntu-advantage-tools
+`sudo apt install ncal, neofetch, cmatrix, tree`
+
+`cal`
+`cal -m Oct`
+`cal -m Nov`
+`cal 2022`
+`clear`
+`cal 2022`
+
+`neofetch`
+
+`tree -d ./`
+`tree -d ./Documents && tree ./Downloads`
+`sudo apt autoremove`
+
+`sudo apt install ubuntu-advantage-tools`
 
 #apt uninstall - fix
 
-sudo apt full-upgrage
-sudo apt autoremove
-sudo apt --fix-broken install
+`sudo apt full-upgrage`
+`sudo apt autoremove`
+`sudo apt --fix-broken install`
 
-sudo apt update && sudo apt upgrade 
-sudo apt autoremove gnome-software && sudo apt install gnome-software
-sudo apt list --installed
-sudo apt list --installed | less
-sudo apt list --installed | grep viber
-sudo apt list --installed | grep python | less
-sudo apt list --upgradeable
-sudo apt list --upgradeable install
-sudo apt --only-upgrade install package_name
-sudo apt --only-upgrade install --all
-sudo apt list --upgradeable --help
+`sudo apt update && sudo apt upgrade `
+`sudo apt autoremove gnome-software && sudo apt install gnome-software`
+`sudo apt list --installed`
+`sudo apt list --installed | less`
+`sudo apt list --installed | grep viber`
+`sudo apt list --installed | grep python | less`
+`sudo apt list --upgradeable`
+`sudo apt list --upgradeable install`
+`sudo apt --only-upgrade install package_name`
+`sudo apt --only-upgrade install --all`
+`sudo apt list --upgradeable --help`
 
-
-
-sudo apt install neofetch
-#neofetch, tree, cmatrix
-
-sudo apt install neoftch
-sudo apt install tree
-sudo apt install cmatrix
-
-tree -d ./
-tree -d ./Documents && tree ./Downloads
-sudo apt autoremove
 
 #command history
 
-code ~/.bash_history
-sudo snap refresh
-history
+``code ~/.bash_history`
+`sudo snap refresh`
+`history`
 
-#remove url from apt
+`sudo snap refresh`
+`sudo reboot`
+`ip address show`
+`uname`
+`uname -a history`
+`code ~/.bash_history`
 
-cd ~/etc/apt/
-cd sources.list.d/
-sudo rm archive_uri-https_packages_microsoft_com_config_ubuntu_22_10_-kinetic.list
-sudo rm archive_uri-https_packages_microsoft_com_ubuntu_20_04_prod-kinetic.list
-sudo rm archive_uri-https_packages_microsoft_com_ubuntu_20_10_prod-kinetic.list
 
-
-#latest commands
-code ~/.bash_history
-sudo snap refresh
-sudo apt update && sudo apt upgrade 
-ssudo reboot
-sudo reboot
-cd Downloads/
-ls
-sudo dpkg -i mysql-workbench-community_8.0.31-1ubuntu22.10_amd64.deb
-cd pkgs
-sudo dpkg -i mysql-workbench-community-dbgsym_8.0.31-1ubuntu22.10_amd64.deb 
-sudo apt install libmysqlclient21 libpcrecpp0v5 libproj25
-
-sudo apt install libmysqlclient21 libpcrecpp0v5 libproj25
-
-sudo dpkg -i mysql-workbench-community_8.0.31-1ubuntu22.10_amd64.deb
-cd pkgs
-sudo apt update && sudo apt upgrade 
-ip address show
-ip adress
-ip address
-uname
-uname -a history
-code ~/.bash_history
-wget --recursive --page-requisites --adjust-extension --span-hosts --wait=1 --limit-rate=10K --convert-links --restrict-file-names=windows --no-clobber --domains example.com --no-parent 
+#latest commands`
+`wget --recursive --page-requisites --adjust-extension --span-hosts --wait=1 --limit-rate=10K --convert-links --restrict-file-names=windows --no-clobber --domains example.com --no-parent `
